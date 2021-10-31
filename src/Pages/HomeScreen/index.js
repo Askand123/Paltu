@@ -1,6 +1,4 @@
 import React from "react";
-import Navbar from "../../Components/Navbar";
-import SlidingPoster from "../../Components/SlidingPoster/SlidingPoster";
 import styles from "./HomeScreen.module.css";
 
 export default function HomeScreen() {
@@ -38,7 +36,6 @@ export default function HomeScreen() {
   ];
   return (
     <div className={styles.container}>
-      <Navbar />
       <div className={styles.top}>
         {data.map((item, i) => (
           <div key={i} className={styles.avatar}>
@@ -49,7 +46,6 @@ export default function HomeScreen() {
           </div>
         ))}
       </div>
-      <SlidingPoster />
     </div>
   );
 }
