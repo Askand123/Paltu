@@ -1,11 +1,10 @@
-
 import "./App.css";
-import Navbar from "./Components/Navbar";
+import HomeScreen from "./Pages/HomeScreen/index";
 
 function App() {
   return (
     <>
-      <Navbar />
+      <HomeScreen />
     </>
   );
 }

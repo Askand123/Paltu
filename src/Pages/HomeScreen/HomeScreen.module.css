@@ -1,0 +1,25 @@
+.top {
+  display: flex;
+  width: 100%;
+  padding: 5px;
+  background-color: #0fff;
+  margin-top: 55px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.image {
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  margin-bottom: 5px;
+}
+.avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .avatarIcon{
+  height: 40px;
+  width: 40;
+  
+} */
