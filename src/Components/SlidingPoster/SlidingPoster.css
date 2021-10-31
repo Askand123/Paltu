@@ -6,7 +6,7 @@ img {
     font-size: 1.5rem;
     color: #fff;
     cursor: pointer;
-    margin-right: -75% !important;
+    margin-right: -60%;
   }
 #user-btn:hover {
     color: grey;
