@@ -6,15 +6,19 @@ let FormBtn = document.querySelector("#user-btn");
 let loginForm = document.querySelector(".login-form-container");
 let FormClose = document.querySelector("#form-close");
 
-// window.onscroll = () => {
-//   loginForm.classList.remove("active");
-// };
-// FormBtn.addEventListener("click", () => {
-//   loginForm.classList.add("active");
-// });
-// FormClose.addEventListener("click", () => {
-//   loginForm.classList.remove("active");
-// });
+window.onscroll = () => {
+  if (loginForm) {
+    loginForm.classList.remove("active");
+  }
+};
+if (FormBtn) {
+  FormBtn.addEventListener("click", () => {
+    loginForm.classList.add("active");
+  });
+  FormClose.addEventListener("click", () => {
+    loginForm.classList.remove("active");
+  });
+}
 export default function Navbar() {
   return (
     <>
@@ -113,7 +117,7 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-      <div className="login-form-container">
+      <div className="login-form-container ">
         <i className="fas fa-times" id="form-close"></i>
         <form>
           <h3>Sign Up</h3>
