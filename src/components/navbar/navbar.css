@@ -5,12 +5,7 @@ nav{
     display: flex;
     justify-content: space-around;
 }
-.Right{
-    display: flex;
-    align-items: center;
-    justify-items: center;
-}
-.Left{
+.navdiv{
     display: flex;
     align-items: center;
     justify-items: center;
