@@ -7,26 +7,26 @@ export const categories = [
   {
     text: "Cat",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7YVAKFc9LjJF9lDm1rb7DARZg-Qm1M10uQg&usqp=CAU",
+      "https://www.wallpaperbetter.com/wallpaper/363/725/213/white-cat-cute-1080P-wallpaper-middle-size.jpg",
   },
   {
-    text: "Dog",
+    text: "Animal Food",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7YVAKFc9LjJF9lDm1rb7DARZg-Qm1M10uQg&usqp=CAU",
+      "https://www.petsworld.in/blog/wp-content/uploads/2014/06/pedigree-dog-food.jpg",
   },
   {
-    text: "Dog",
+    text: "Animal Combos",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7YVAKFc9LjJF9lDm1rb7DARZg-Qm1M10uQg&usqp=CAU",
+      "https://middlebury.coop/wp-content/uploads/2016/02/Pet-Items-1140x760.jpg",
   },
   {
-    text: "Dog",
+    text: "Cloths",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7YVAKFc9LjJF9lDm1rb7DARZg-Qm1M10uQg&usqp=CAU",
+      "https://th.bing.com/th/id/OIP.mITz-Nvcb4ykDHRH-cccEwHaHa?pid=ImgDet&rs=1",
   },
   {
-    text: "Dog",
+    text: "Offers",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7YVAKFc9LjJF9lDm1rb7DARZg-Qm1M10uQg&usqp=CAU",
+      "https://image.flaticon.com/icons/png/512/401/401132.png",
   },
 ];
