@@ -2,11 +2,7 @@ import "./App.css";
 import HomeScreen from "./Pages/HomeScreen/index";
 
 function App() {
-  return (
-    <>
-      <HomeScreen />
-    </>
-  );
+  return <HomeScreen />;
 }
 
 export default App;
