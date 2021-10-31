@@ -1,0 +1,12 @@
+nav{
+    background-color: #2874f0;
+    height: 3.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.Right{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}

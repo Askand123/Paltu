@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./HomeScreen.module.css";
+import Navbar from "../../components/navbar/Navbar";
 
 export default function HomeScreen() {
   const data = [
@@ -36,6 +37,7 @@ export default function HomeScreen() {
   ];
   return (
     <div className={styles.container}>
+      <Navbar firstcontent="Login"/>
       <div className={styles.top}>
         {data.map((item, i) => (
           <div key={i} className={styles.avatar}>
