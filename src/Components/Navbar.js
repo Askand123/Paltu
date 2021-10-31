@@ -7,14 +7,18 @@ let loginForm = document.querySelector(".login-form-container");
 let FormClose = document.querySelector("#form-close");
 
 window.onscroll = () => {
-  loginForm.classList.remove("active");
+  if (loginForm) {
+    loginForm.classList.remove("active");
+  }
 };
-FormBtn.addEventListener("click", () => {
-  loginForm.classList.add("active");
-});
-FormClose.addEventListener("click", () => {
-  loginForm.classList.remove("active");
-});
+if (FormBtn) {
+  FormBtn.addEventListener("click", () => {
+    loginForm.classList.add("active");
+  });
+  FormClose.addEventListener("click", () => {
+    loginForm.classList.remove("active");
+  });
+}
 export default function Navbar() {
   return (
     <>
