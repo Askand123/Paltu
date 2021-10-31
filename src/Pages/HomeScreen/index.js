@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../Components/Navbar";
+import SlidingPoster from "../../Components/SlidingPoster";
 import styles from "./HomeScreen.module.css";
 
 export default function HomeScreen() {
@@ -48,6 +49,7 @@ export default function HomeScreen() {
           </div>
         ))}
       </div>
+      <SlidingPoster />
     </div>
   );
 }
