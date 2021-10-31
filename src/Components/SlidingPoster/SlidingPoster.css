@@ -2,17 +2,17 @@ img {
     height: 700px;
     width: 100%;
 }
-i {
+#user-btn {
     font-size: 1.5rem;
     color: #fff;
     cursor: pointer;
     margin-right: -75% !important;
   }
-  i:hover {
+#user-btn:hover {
     color: grey;
     transition: 0.2s all;
   }
-  .login-form-container .fa-times{
+.login-form-container #user-btn{
     position: absolute;
     top: 1.5rem;
     right: 2.5rem;
