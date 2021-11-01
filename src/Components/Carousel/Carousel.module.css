@@ -1,0 +1,33 @@
+.Slider{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: blue; */
+    height: 400px;
+    width: 80pc;
+}
+.img{
+    width: 70rem;
+    margin: 0;
+    padding: 0;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0% 0%;
+}
+.RightArrow{
+    right: 10%;
+}
+.LeftArrow{
+    left: 10%;
+}
+#slidericon{
+    position: absolute;
+    top: 40%;
+    font-size: 3rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
